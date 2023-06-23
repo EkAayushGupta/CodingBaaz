@@ -7,30 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="navContainer">
+        <h1 class="logo">Coding<span id="logoStyle1">Baaz</span></h1>
         <nav>
-        <div class="logo">Coding Baaz</div>
-                <ul class="navItems">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skill</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>                  
-                </ul>
+            <ul class="navItems">
+                <li><a href="" >Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>                  
+            </ul>
         </nav>
+    </div>
+    <div class="homeContainer">
         <div class="wrapper">
             <div class="cols cols0">
-                <span class="topline">Hello,</span>
-                <h1>I'm <span class="multiText">Coder</span></h1>
-                <p>Basiclly my self Aayush Gupta & This is my office website!!</p>
-            </div>
-            
+                <span class="topline">Hello, Myself Aayush Gupta</span>
+                <h1 class="movingText">I'm <span class="multiText"></span></h1>
+                <p>Basiclly my ambission is to become a software engineer.</p>
+            </div> 
+            <img src="img.png">  
         </div>
+        <button id="wrapperBtn1">Let's Talk</button> 
     </div>
+     
     <!-- Details divs ⬇️ -->
-    <div class="about">
-        <img src="https://media.istockphoto.com/id/1401158734/photo/c-sharp-programming-language-source-code-example-on-monitor-and-bokeh-background-c-source.jpg?s=612x612&w=0&k=20&c=yFINx_D1eGe43fkus1qp68kn2TJC6fBvPF0uxMTQUsg=">
-    </div>
+    <div class="about"></div>
     <div class="skill"></div>
     <div class="resume"></div>
     <div class="contact"></div>
@@ -49,24 +51,15 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var typingEffect = new Typed(".multiText",{
-                strings : ["Coder","Designer","Youtuber","Dreamer"],
+                strings : ["Coder","Designer","Youtuber","Fashion"],
                 loop : true,
                 typeSpeed : 100,
-                backSpeed : 80,
-                backDelay : 1500
+                backSpeed : 120,
+                backDelay : 1800
             })
 
     </script>
 </body>
 </html>
 
-<!-- 
-what is nav??
-what is hover - aftert and before
-what is z-index eg-2
-how to uderstand inspect view in chrom??
-what is cols and cols0??
-what is span tag??
-
-what is 
- -->
+<!-- what is min-height?? -->
