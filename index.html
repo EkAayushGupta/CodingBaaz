@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To Coding Baaz</title>
+    <!-- Here is my all styling accets folder links.⤵️ -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style assets/about.css">
+    <link rel="stylesheet" href="Style assets/skill.css">
+    <link rel="stylesheet" href="Style assets/resume.css">
+    <link rel="stylesheet" href="Style assets/contact.css">
+
 </head>
 <body>
     <div class="navContainer">
         <h1 class="logo">Coding<span id="logoStyle1">Baaz</span></h1>
         <nav>
             <ul class="navItems">
-                <li><a href="" >Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skill</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>                  
+                <li><a href="#navContainer" >Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contack">Contact</a></li>                  
             </ul>
         </nav>
     </div>
@@ -24,19 +30,31 @@
             <div class="cols cols0">
                 <span class="topline">Hello, Myself Aayush Gupta</span>
                 <h1 class="movingText">I'm <span class="multiText"></span></h1>
-                <p>Basiclly my ambission is to become a software engineer.</p>
+                <p>Basiclly my ambition is become a software engineer.</p>
             </div> 
-            <img src="img.png">  
+            <img src="Img assets/img.png">  
         </div>
         <button id="wrapperBtn1">Let's Talk</button> 
     </div>
      
     <!-- Details divs ⬇️ -->
-    <div class="about"></div>
-    <div class="skill"></div>
-    <div class="resume"></div>
-    <div class="contact"></div>
-    <div class="footer">
+    <section id="about">
+        <div class="aboutImg">
+            <img id="aboutImg1" src="Img assets/img.png">
+        </div>
+        <div class="aboutInfo">
+            
+            <h1 class="aboutText1">My <span class="aboutText2">Intro</span></h1>
+            <h1 id="aboutAbt">About Me</h1>
+            <p id="aboutAbt1">MJYugdbby dushkjlj hudhshhshhh khhdirhfhhhh fkjduduhshka shudhsks kshuhdsh fjlfiufef khffbm khfdhe    jsdekf khfieuh.</p>
+            
+            <button id="aboutBtn1">Let's Talk</button>
+        </div>
+    </section>
+    <section id="skill"></section>
+    <section id="resume"></section>
+    <section id="contact"></section>
+    <section id="footer">
         <div class="footerOne">
 
         </div>
@@ -46,23 +64,16 @@
         <div class="footerThree">
 
         </div>
-    </div>
 
+    </section>
+
+
+    <!-- Here is my all script accets folder links & google links.⤵️ -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        var typingEffect = new Typed(".multiText",{
-                strings : ["Coder","Designer","Youtuber","Fashion"],
-                loop : true,
-                typeSpeed : 100,
-                backSpeed : 120,
-                backDelay : 1800
-            })
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-<!-- 
+<!-- Here all the question that i'll search??
 what is min-height?? 
 what is nav??
 what is hover - aftert and before

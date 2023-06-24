@@ -1,0 +1,56 @@
+#about{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    box-shadow:0 0 120px yellow,0 0 60px yellow;   
+}
+.aboutInfo{
+    background-color: ;
+    height: 65%;
+    width: 45%;
+    margin: 120px 0px 0px 630px;
+    position: absolute;
+}
+.aboutText1{
+    font-size: 32px;
+    color: black;
+    margin: 45px 0px 5px 0px; 
+}
+.aboutText2{
+    font-size: 32px;
+    color: black;
+    margin: 40px 0px 0px 0px;
+}
+#aboutAbt{
+    font-size: 50px;
+    color: black;
+    margin: 0px 0px 7px 0px;
+}
+#aboutAbt1{
+    font-size: 22px;
+    color: black;
+    margin: 0px 0px 0px 0px;
+}
+#aboutBtn1{
+    background-color: black;
+    font-size: 22px;
+    height: 55px;
+    width: 140px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 30px 0px 40px 10px;
+    border-radius: 5px ;
+    border: none;
+ }
+ #aboutBtn1:hover{
+    font-weight: 600;
+    overflow: hidden;
+    background-color: rgb(253, 253, 253);
+    color: black;
+ }
+#aboutImg1{
+    position: absolute;
+    height: 550px;
+    width: auto;
+    margin: 90px 0px 0px 85px;
+}

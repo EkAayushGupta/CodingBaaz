@@ -151,6 +151,7 @@ p{
  #wrapperBtn1:hover{
     font-weight: 600;
     overflow: hidden;
+    background-color: white;
  }
  img{
     position: absolute;
@@ -163,30 +164,25 @@ p{
 
 
 /* Details div styling ⬇️ */
-.about{
-    height: 100%;
-    width: 100%;
-    background-color: yellow;
-    box-shadow:0 0 120px yellow,0 0 60px yellow;
-}
-.skill{
+
+#skill{
     height: 100%;
     width: 100%;
     background-color: black;
 }
-.resume{
+#resume{
     height: 100%;
     width: 100%;
     background-color: yellow;
 }
-.contact{
+#contact{
     height: 100%;
     width: 100%;
     background-color: black;
 }
 
 /* footer styling ⬇️ */
-.footer{
+#footer{
     height: 40%;
     width: 100%;
     background-color: yellow;
