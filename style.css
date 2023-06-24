@@ -13,8 +13,6 @@ html,body{
     height: 12%;
     background-color: #1D1D1D;
     color: white;
-    position: fixed;
-    top: 0;
 }
 .logo{
     position: absolute;
