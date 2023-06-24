@@ -1,8 +1,8 @@
 #about{
     height: 100%;
     width: 100%;
-    background-color: yellow;
-    box-shadow:0 0 120px yellow,0 0 60px yellow;   
+    background-color: #1D1D1D;
+    /* box-shadow:0 0 120px #1D1D1D,0 0 60px #1D1D1D;    */
 }
 .aboutInfo{
     background-color: ;
@@ -13,40 +13,41 @@
 }
 .aboutText1{
     font-size: 32px;
-    color: black;
+    color: #eeeeee;
     margin: 45px 0px 5px 0px; 
 }
 .aboutText2{
     font-size: 32px;
-    color: black;
+    color: #f6c90e;
     margin: 40px 0px 0px 0px;
 }
 #aboutAbt{
     font-size: 50px;
-    color: black;
+    color: #eeeeee;
     margin: 0px 0px 7px 0px;
 }
 #aboutAbt1{
     font-size: 22px;
-    color: black;
+    color: #eeeeee;
     margin: 0px 0px 0px 0px;
 }
 #aboutBtn1{
-    background-color: black;
+    background-color: #f6c90e;
     font-size: 22px;
     height: 55px;
     width: 140px;
-    color: rgb(255, 255, 255);
+    color: #0f0e0e;
     padding: 0px;
+    font-weight: 600;
     margin: 30px 0px 40px 10px;
     border-radius: 5px ;
     border: none;
  }
  #aboutBtn1:hover{
-    font-weight: 600;
+    
     overflow: hidden;
-    background-color: rgb(253, 253, 253);
-    color: black;
+    background-color: #eeeeee;
+    color: 0f0e0e;
  }
 #aboutImg1{
     position: absolute;

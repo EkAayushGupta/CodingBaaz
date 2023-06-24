@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: arial;
+    /* font-family: arial; */
 }
 html,body{
     height: 100%;
@@ -11,8 +11,10 @@ html,body{
 .navContainer{
     width: 100%;
     height: 12%;
-    background-color: black ;
+    background-color: #1D1D1D;
     color: white;
+    position: fixed;
+    top: 0;
 }
 .logo{
     position: absolute;
@@ -21,12 +23,12 @@ html,body{
     font-family: segoe print;
     font-weight:800;
     margin: 3px 0px 0px 145px; 
-    color: white;
+    color: #eeeeee;
     letter-spacing: 2px;
     cursor: pointer;
     text-transform: upp;
 }
-#logoStyle1{color: #f0e008;font-size: 45px;
+#logoStyle1{color: #f6c90e;font-size: 45px;
     font-family: segoe print; }
 nav{
     display: flex;
@@ -34,11 +36,11 @@ nav{
     justify-content: space-around;
     height: 100%;
     line-height: 80px;
-    z-index: 1;
+    z-index: 100000;
 }
 .navItems{ 
     display: flex;
-    color: yellow; 
+    /* color: #f6c90e;  */
     margin: 0px 0px 0px 420px;
 }
 .navItems li{
@@ -53,7 +55,7 @@ nav{
     font-size: 22px;
     font-family: arial;
     font-weight: 600;
-    color: yellow;
+    color: #f6c90e;
     cursor: pointer;
     position: relative;
     z-index: 2;
@@ -62,7 +64,7 @@ nav{
 }
 .navItems li a::after{
     content: '';
-    background: yellow;
+    background: #f6c90e;
     width: 120px;
     height: 50%;
     border-radius: 5px;
@@ -74,14 +76,14 @@ nav{
     opacity: 0;
     transition: top 0.4s, opacity 0.5s;
 }
-.navItems li a:hover{color: black; font-weight: 600;}
+.navItems li a:hover{color: #0f0e0e; font-weight: 600;}
 .navItems li a:hover::after{top: 50%; opacity: 1; }
 
 .homeContainer{
     width: 100%;
     height: 88%;
-    background-color: rgba(0, 0, 0, 0.888) ;
-    color: white;
+    background-color: #0f0e0e;
+    color: #eeeeee;
 }
 .wrapper{
     display: flex;
@@ -105,7 +107,7 @@ nav{
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 5px;
-    color: white;
+    color: #eeeeee;
 }
 .topline::after{
     /* position: relative; */
@@ -120,12 +122,12 @@ nav{
     font-size: 7em;
     width: 800px;
     font-weight: 900;
-    color: white;
+    color: #eeeeee;
     padding: 12px 0px 12px 0px;
     font-family: gilroy;
 }
 .multiText{
-    color: #f0e008;
+    color: #f6c90e;
     text-transform: capitalize;
     font-family: gilroy;
     
@@ -134,11 +136,11 @@ p{
     display: block;
     width: 90%;
     font-size: 1.4em;
-    color: white;
+    color: #eeeeee;
     margin-left: 10px;
  }
  #wrapperBtn1{
-    background-color: yellow;
+    background-color: #f6c90e;
     font-size: 22px;
     height: 55px;
     width: 140px;
@@ -147,11 +149,12 @@ p{
     margin: 30px 0px 40px 90px;
     border-radius: 5px ;
     border: none;
+    font-weight: 600;
  }
  #wrapperBtn1:hover{
-    font-weight: 600;
+    
     overflow: hidden;
-    background-color: white;
+    background-color: #eeeeee;
  }
  img{
     position: absolute;
@@ -160,32 +163,11 @@ p{
     margin: 170px 0px 0px 780px;
  }
  
-
-
-
-/* Details div styling ⬇️ */
-
-#skill{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-}
-#resume{
-    height: 100%;
-    width: 100%;
-    background-color: yellow;
-}
-#contact{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-}
-
 /* footer styling ⬇️ */
 #footer{
     height: 40%;
     width: 100%;
-    background-color: yellow;
+    background-color: #f6c90e;
     position: absolute;
 }
 .footerOne{

@@ -5,3 +5,9 @@ var typingEffect = new Typed(".multiText",{
     backSpeed : 120,
     backDelay : 1800
 })
+
+window.addEventListener('scroll',function(){
+    let navbar = document.getElementById(navCon);
+
+    if(window.pageYOffset >=)
+});
