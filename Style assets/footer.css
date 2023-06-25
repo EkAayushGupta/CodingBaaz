@@ -1,0 +1,28 @@
+/* footer styling ⬇️ */
+#footer{
+    height: 40%;
+    width: 100%;
+    background-color: #f6c90e;
+    position: absolute;
+}
+.footerOne{
+    position: absolute;
+    margin: 2% 0% 0% 2% ;
+    height: 80%;
+    width: 30%;
+    background-color: black;
+}
+.footerTwo{
+    position: absolute;
+    margin: 2% 0% 0% 34% ;
+    height: 80%;
+    width: 30%;
+    background-color: black;
+}
+.footerThree{
+    position: absolute;
+    margin: 2% 0% 0% 66% ;
+    height: 80%;
+    width: 30%;
+    background-color: black;
+}

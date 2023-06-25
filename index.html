@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Style assets/about.css">
     <link rel="stylesheet" href="Style assets/skill.css">
-    <link rel="stylesheet" href="Style assets/resume.css">
+    <link rel="stylesheet" href="Style assets/services.css">
+    <link rel="stylesheet" href="Style assets/project.css">
     <link rel="stylesheet" href="Style assets/contact.css">
+    <link rel="stylesheet" href="Style assets/footer.css">
+
 
 </head>
 <body>
+    <!-- Navigation Container ⬇️-->
     <header class="navContainer">
-        <h1 class="logo">Coding<span id="logoStyle1">Baaz</span></h1>
+        <h1 class="navLogoText1">Coding <span id="spanTxtClr">Baaz</span></h1>
         <nav>
             <ul class="navItems">
-                <li><a href="#navContainer" >Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#navContainer">Home</a></li>
+                <li><a href="#aboutContainer">About</a></li>
                 <li><a href="#skill">Skill</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contack">Contact</a></li>                  
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projectsDiv">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>                  
             </ul>
         </nav>
     </header>
+
+    <!-- Home Container ⬇️-->
     <div class="homeContainer">
         <div class="wrapper">
             <div class="cols cols0">
-                <span class="topline">Hello, Myself Aayush Gupta</span>
-                <h1 class="movingText">I'm <span class="multiText"></span></h1>
+                <span class="wrapperText1">Hello, Myself Aayush Gupta</span>
+                <h1 class="wrapperText2">I'm <span id="spanTxtClr">Coder</span></h1>
                 <p>Basiclly my ambition is become a software engineer.</p>
             </div> 
             <img src="Img assets/img.png">  
@@ -37,22 +44,73 @@
         <button id="wrapperBtn1">Let's Talk</button> 
     </div>
      
-    <!-- Details divs ⬇️ -->
-    <section id="about">
-        <div class="aboutImg">
-            <img id="aboutImg1" src="Img assets/img.png">
+    <!-- Details container about ⬇️ -->
+    <section class="aboutContainer">
+        <div class="aboutImgDiv">
+        <img src="Img assets/ag.png" alt="Image not founded.">
+        <!-- <h2>Move cursor around image.</h2> -->
         </div>
-        <div class="aboutInfo">
-            
-            <h1 class="aboutText1">My <span class="aboutText2">Intro</span></h1>
-            <h1 id="aboutAbt">About Me</h1>
-            <p id="aboutAbt1">MJYugdbby dushkjlj hudhshhshhh khhdirhfhhhh fkjduduhshka shudhsks kshuhdsh fjlfiufef khffbm khfdhe    jsdekf khfieuh.</p>
-            
-            <button id="aboutBtn1">Let's Talk</button>
+
+        <div class="aboutInfoDiv">
+            <h1 id="aboutTxt1">My <span id="spanTxtClr">Intro</span></h1>
+            <h1 id="aboutTxt2">About Me</h1>
+            <p>i am very poor students i am doing my graduation from xyz college in madhepura. so that is need some money for my study can you give me some money for my better study.</p>
+            <button id="aboutBtn1" src="#contact" >Contact</button>
         </div>
     </section>
-    <section id="skill"></section>
-    <section id="resume"></section>
+
+    <!-- Details container skill ⬇️ -->
+    <section class="skill">
+        <div class="skillDiv1">
+            <h1 id="skillTxt1">Favourt <span id="spanTxtClr">Skills</span></h1>
+            <h1 id="skillTxt2">My Skills</h1>
+            <p>i am very poor students i am doing my graduation from xyz college in madhepura.</p>
+            <button id="skillBtn1" src="#contact" >Contact</button>
+        </div>
+        <div class="skillDiv2">
+            <ul type="disc">
+                <li>HTML & CSS</li>
+                <li>Graphic Deisgning</li>
+                <li>Videos Editing</li>
+                <li>JavaScript</li>
+                <li>C++ & Java</li>
+                <li>Git & Github</li>
+                <li>React</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Details container services ⬇️ -->
+    <section class="services">
+        <div id="servicesTxtDiv">
+            <h1 id="servicesTxt1">My <span id="spanTxtClr">Services</span></h1>
+            <h1 id="servicesTxt2">What I Do</h1>
+        </div>
+        <div id="servicesDiv1">
+            <img src="" alt="" srcset="">
+            <h1>Web Developer</h1>
+            <p>i am very poor students i am doing my graduation from xyz college in madhepura.</p>
+
+        </div>
+        <div id="servicesDiv2">
+            <img src="" alt="" srcset="">
+            <h1>UX/UI Designer</h1>
+            <p>i am very poor students i am doing my graduation from xyz college in madhepura.</p>
+
+        </div>
+        <div id="servicesDiv3">
+            <img src="" alt="" srcset="">
+            <h1>Graphic Designer</h1>
+            <p>i am very poor students i am doing my graduation from xyz college in madhepura.</p>
+
+        </div>
+    </section>
+    <!-- Details container projects ⬇️ -->
+    <section id="projectsDiv">
+
+    </section>
+
+    <!-- Details container contact ⬇️ -->
     <section id="contact"></section>
     <section id="footer">
         <div class="footerOne">
@@ -83,4 +141,5 @@ what is cols and cols0??
 what is span tag??
 how to stick navbar??
 how to responsive website??
+What is acutal meaning of class and id??
 -->

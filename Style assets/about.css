@@ -1,35 +1,55 @@
-#about{
+.aboutContainer{
     height: 100%;
     width: 100%;
     background-color: #1D1D1D;
-    /* box-shadow:0 0 120px #1D1D1D,0 0 60px #1D1D1D;    */
 }
-.aboutInfo{
-    background-color: ;
+/* .aboutImg{
+    background-color: #f6c90e;
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    margin: 180px 0px 0px 150px;
+    border-radius: 50%;
+    
+} */
+.aboutImgDiv img{
+    width: 400px;
+    height: 400px;
+    margin: 170px 0px 0px 200px;
+    position: absolute;
+    filter: blur(50);
+    border: 3px solid #eeeeee;
+    border-radius: 50%;
+    filter: blur(2px);
+    -webkit-filter: blur(3px);
+   cursor: pointer;
+}
+.aboutImgDiv img:hover{
+    filter: blur(0px);
+   -webkit-filter: blur(0px);
+}
+
+.aboutInfoDiv{
+    letter-spacing: 1.5px;
     height: 65%;
     width: 45%;
-    margin: 120px 0px 0px 630px;
+    margin: 210px 0px 0px 690px;
     position: absolute;
 }
-.aboutText1{
+#aboutTxt1{
     font-size: 32px;
     color: #eeeeee;
-    margin: 45px 0px 5px 0px; 
+    margin-bottom: 7px;
 }
-.aboutText2{
-    font-size: 32px;
-    color: #f6c90e;
-    margin: 40px 0px 0px 0px;
-}
-#aboutAbt{
+#aboutTxt2{
     font-size: 50px;
     color: #eeeeee;
-    margin: 0px 0px 7px 0px;
+    margin: 0px 0px 25px 0px;
 }
-#aboutAbt1{
+.aboutInfoDiv p{
     font-size: 22px;
     color: #eeeeee;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 40px 0px;
 }
 #aboutBtn1{
     background-color: #f6c90e;
@@ -39,19 +59,11 @@
     color: #0f0e0e;
     padding: 0px;
     font-weight: 600;
-    margin: 30px 0px 40px 10px;
     border-radius: 5px ;
     border: none;
  }
  #aboutBtn1:hover{
-    
     overflow: hidden;
     background-color: #eeeeee;
     color: 0f0e0e;
  }
-#aboutImg1{
-    position: absolute;
-    height: 550px;
-    width: auto;
-    margin: 90px 0px 0px 85px;
-}

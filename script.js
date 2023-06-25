@@ -1,4 +1,4 @@
-var typingEffect = new Typed(".multiText",{
+var typingEffect = new Typed(".wrapperText2 span",{
     strings : ["Coder","Designer","Youtuber","Fashion"],
     loop : true,
     typeSpeed : 100,
