@@ -42,7 +42,7 @@ nav{
 }
 .navItems li{
     list-style: none;
-    margin: 0 18px; 
+    margin: 0 16px; 
 }
 .navItems li a{
     display: inline-block;
@@ -51,7 +51,7 @@ nav{
     letter-spacing: 3px;
     font-size: 22px;
     font-family: arial;
-    font-weight: 600;
+    font-weight: 550;
     color: #f6c90e;
     cursor: pointer;
     position: relative;
@@ -73,7 +73,7 @@ nav{
     opacity: 0;
     transition: top 0.4s, opacity 0.5s;
 }
-.navItems li a:hover{ color: #0f0e0e; font-weight: 600; }
+.navItems li a:hover{ color: #0f0e0e; font-weight: 550; }
 .navItems li a:hover::after{ top: 50%; opacity: 1; }
 /* Home Container ⬇️*/
 .homeContainer{
