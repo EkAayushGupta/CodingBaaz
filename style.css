@@ -8,6 +8,7 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
 /* Navigation Container ⬇️ */
 .navContainer{
     width: 100%;
@@ -59,7 +60,7 @@ nav{
     text-decoration: none;
     transition: color 0.5s;
 }
-.navItems li a::after{
+/* .navItems li a::after{
     content: '';
     background: #f6c90e;
     width: 120px;
@@ -74,7 +75,12 @@ nav{
     transition: top 0.4s, opacity 0.5s;
 }
 .navItems li a:hover{ color: #0f0e0e; font-weight: 550; }
-.navItems li a:hover::after{ top: 50%; opacity: 1; }
+.navItems li a:hover::after{ top: 50%; opacity: 1; } */
+
+.navItems li a:hover{
+    color: #eeeeee;
+}
+
 /* Home Container ⬇️*/
 .homeContainer{
     width: 100%;

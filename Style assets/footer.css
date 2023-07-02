@@ -1,28 +1,36 @@
 /* footer styling ⬇️ */
-#footer{
-    height: 40%;
+#footerDiv{
+    height: 210px;
     width: 100%;
-    background-color: #f6c90e;
+    background-color: #0f0e0e;
+    letter-spacing: 1px;
+}
+#footerTxtDiv1{
+    height: 210px;
+    width: 30%;
     position: absolute;
 }
-.footerOne{
-    position: absolute;
-    margin: 2% 0% 0% 2% ;
-    height: 80%;
-    width: 30%;
-    background-color: black;
+#footerTxt1{
+    font-size: 40px;
+    color: #eeeeee;
+    margin-bottom: 7px;
+    margin: 60px 0px 0px 50px;
 }
-.footerTwo{
-    position: absolute;
-    margin: 2% 0% 0% 34% ;
-    height: 80%;
-    width: 30%;
-    background-color: black;
+#footerTxt2{
+    font-size: 21px;
+    color: #eeeeee;
+    margin: 10px 0px 0px 50px;
 }
-.footerThree{
+#footerTxtDiv2{
+    width: 70%;
+    height: 210px;
+    margin: 0px 0px 0px 30%;
     position: absolute;
-    margin: 2% 0% 0% 66% ;
-    height: 80%;
-    width: 30%;
-    background-color: black;
+}
+#footerTxtDiv2 h1{
+    text-align: center;
+    color: #eeeeee;
+    font-size: 30px;
+    margin: 15px 0px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
