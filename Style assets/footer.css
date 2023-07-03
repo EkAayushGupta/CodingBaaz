@@ -31,6 +31,62 @@
     text-align: center;
     color: #eeeeee;
     font-size: 30px;
-    margin: 15px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+#socialIcon{
+    margin: 30px 0px 0px 290px;
+}
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+  }
+  
+  .fa:hover {
+      background-color: #eeeeee;
+      color: #f6c90e;
+
+  }
+  
+  /* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+  .fa-facebook{
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
+  
+  .fa-twitter {
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
+  .fa-linkedin {
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
+  
+  .fa-youtube {
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
+  
+  .fa-instagram {
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
+  
+  .fa-pinterest {
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
+  
+  .fa-snapchat-ghost {
+    background-color: #f6c90e;
+    color: #eeeeee;
+  }
